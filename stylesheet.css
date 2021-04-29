@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  background: #00c1c4;
 }
 
 ul {
@@ -23,13 +24,13 @@ a {
   text-align: center;
   display: inline-block;
   border; none;
-  background: #2ea69e;
+  background: #00c1c4;
 }
 
 #menu {
   padding: 10px;
   float: left;
-  background: #b3b3b3;
+  background: white;
   position:absolute;
   width: 100%;
   top:0%;
@@ -37,9 +38,10 @@ a {
 }
 
 #main {
+  background: white;
   padding: 10px;
   position:absolute;
-  top:10%;
+  top:15%;
   left:2%;
   right:10%;
 }
