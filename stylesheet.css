@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   font-family: sans-serif;
   background: #00c1c4;
 }
@@ -13,7 +14,7 @@ li {
   float: left;
   list-style: none;
   font-size: 20px;
-  margin: 5px;
+  margin: 2px;
   padding: 10px;
 }
 
@@ -28,20 +29,21 @@ a {
 }
 
 #menu {
-  padding: 10px;
-  float: left;
   background: white;
-  position:absolute;
-  width: 100%;
-  top:0%;
-  left:0%;
+  position:relative;
+  height: 70px;
 }
 
 #main {
+  padding: 10px;
+  position:relative;
+  top: 10px;
+  left: 10px;
+}
+
+#introduction {
+  font-size: 20px;
   background: white;
   padding: 10px;
-  position:absolute;
-  top:15%;
-  left:2%;
-  right:10%;
+  max-width: 400px;
 }
