@@ -24,8 +24,14 @@ a {
   text-decoration: none;
   text-align: center;
   display: inline-block;
-  border; none;
   background: #00c1c4;
+}
+
+a:hover {
+  border: solid;
+  border-width: 4px;
+  border-color: #007475;
+  padding: 6px;
 }
 
 #menu {
@@ -41,9 +47,20 @@ a {
   left: 10px;
 }
 
-#introduction {
+.StandardTextBlock {
   font-size: 20px;
   background: white;
   padding: 10px;
-  max-width: 400px;
+  max-width: 1000px;
+  margin: 10px;
+}
+
+.StandardTextBlock ul {
+  background: white;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+.StandardTextBlock a {
+  font-size: 14px;
 }

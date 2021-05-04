@@ -1,0 +1,8 @@
+TODO:
+- logo veranderen
+- google drive links testen/laten testen
+- contact page
+- not working buttons:
+                      - CoronaInvaders install with extractor
+                      - CoronaInvaders install without extractor
+                      - CoronaInvaders how to play
